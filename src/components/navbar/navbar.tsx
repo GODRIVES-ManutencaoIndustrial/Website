@@ -36,7 +36,6 @@ import { SlMenu } from "react-icons/sl"
 import { HiOutlineMenuAlt3 } from "react-icons/hi"
 import { Divide } from "lucide-react"
 
-
 const getInitialSreenX = () => {
   if (typeof window !== "undefined") {
     return window.innerWidth
@@ -57,7 +56,6 @@ export default function Navbar() {
     const handleResize = () => setScreenX(window.innerWidth)
 
     if (window !== undefined) {
-      console.log(window.innerWidth)
       window.addEventListener("resize", handleResize)
       window.addEventListener("scroll", handleScroll)
 

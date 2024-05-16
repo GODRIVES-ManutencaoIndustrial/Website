@@ -21,7 +21,7 @@ export default function Page() {
             <p className="text-center text-base text-primaryWhite md:text-lg">
               Seja bem vindo a{" "}
               <span className="text-xl font-bold text-primaryBlue">GO</span>
-              <span className="text-primaryRed text-xl font-bold">DRIVES</span>
+              <span className="text-xl font-bold text-primaryRed">DRIVES</span>
             </p>
           </div>
           <p className="mt-5 text-center text-3xl font-semibold text-primaryWhite sm:text-4xl">
@@ -39,10 +39,10 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="h-[650px] w-full bg-white">Teste</div>
+      {/* <div className="h-[650px] w-full bg-white">Teste</div>
       <div className="h-[650px] w-full bg-white">Teste</div>
 
-      <div className="h-[650px] w-full bg-white">Teste</div>
+      <div className="h-[650px] w-full bg-white">Teste</div> */}
     </>
   )
 }
